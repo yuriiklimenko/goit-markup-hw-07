@@ -1,0 +1,17 @@
+.title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: var(--primary-letter-spacing);
+  color: var(--title-text-color);
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: var(--primary-font-size);
+  line-height: 1.14;
+  letter-spacing: var(--primary-letter-spacing);
+  text-transform: uppercase;
+}

@@ -1,0 +1,21 @@
+.clients__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients__link {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+  transition: border-color 250ms var(--timing-function), fill 250ms var(--timing-function);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+}
